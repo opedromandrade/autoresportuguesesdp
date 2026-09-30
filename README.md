@@ -2,11 +2,10 @@
 
 Este repositório centraliza os dados extraídos do **Wikidata** sobre autores portugueses cujas obras já se encontram em **domínio público**.
 
-O objetivo é facilitar o acesso, análise e reutilização destas informações para projetos literários, académicos ou culturais.
+O objetivo é facilitar o acesso, análise e reutilização fos dados para projetos literários, académicos ou culturais.
 
 ## 🌍 Fonte de Dados
-Todos os dados são provenientes diretamente do Wikidata:
-🔗 [Ver no Wikidata](insertlinkhere)
+Todos os dados são provenientes diretamente da 🔗[Wikidata](https://www.wikidata.org)
 
 ## 📂 O que contém este repositório?
 - Listas estruturadas de autores portugueses falecidos há mais de 70 anos (ou conforme legislação aplicável).
