@@ -2,7 +2,7 @@ name: Update public domain authors
 
 on:
   schedule:
-    # 00:00 UTC on Jan 1, Apr 1, Jul 1, Oct 1
+    # 00:00 UTC on Jan 9, Apr 9, Jul 9, Oct 9
     - cron: "0 0 1 1,4,7,10 *"
   workflow_dispatch:  # allow manual trigger
 
