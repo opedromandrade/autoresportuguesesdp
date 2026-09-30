@@ -8,9 +8,7 @@ O objetivo é facilitar o acesso, análise e reutilização fos dados para proje
 Todos os dados são provenientes diretamente da 🔗[Wikidata](https://www.wikidata.org)
 
 ## 📂 O que contém este repositório?
-- Listas estruturadas de autores portugueses falecidos há mais de 70 anos (ou conforme legislação aplicável).
-- Metadados das obras disponíveis.
-- Links para textos completos quando disponíveis online.
+- Lista estruturada de autores portugueses falecidos há mais de 70 anos (ou conforme legislação aplicável).
 
 ## 🚀 Como usar
 1. Clone este repositório.
@@ -18,4 +16,4 @@ Todos os dados são provenientes diretamente da 🔗[Wikidata](https://www.wikid
 3. Utilize os dados para pesquisas, digitalizações ou curadoria de conteúdo.
 
 ## 🤝 Contribuições
-Contribuições são bem-vindas! Se encontrar erros nos dados ou quiser melhorar a forma de apresentação dos dados, por favor abra um *issue* ou envie um *pull request*.
+Contribuições são bem-vindas! Se encontrar erros nos dados ou quiser melhorar a forma de apresentação dos dados, por favor abra uma *issue* ou envie um *pull request*.
