@@ -18,4 +18,4 @@ Todos os dados são provenientes diretamente da 🔗[Wikidata](https://www.wikid
 3. Utilize os dados para pesquisas, digitalizações ou curadoria de conteúdo.
 
 ## 🤝 Contribuições
-Contribuições são bem-vindas! Se encontrar erros nos dados ou quiser adicionar novos autores, por favor abra uma *issue* ou envie um *pull request*.
+Contribuições são bem-vindas! Se encontrar erros nos dados ou quiser melhorar a forma de apresentação dos dados, por favor abra um *issue* ou envie um *pull request*.
