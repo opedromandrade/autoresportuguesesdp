@@ -19,6 +19,3 @@ Todos os dados são provenientes diretamente da 🔗[Wikidata](https://www.wikid
 
 ## 🤝 Contribuições
 Contribuições são bem-vindas! Se encontrar erros nos dados ou quiser adicionar novos autores, por favor abra uma *issue* ou envie um *pull request*.
-
----
-*Dados atualizados automaticamente a partir do Wikidata.* 🔄
