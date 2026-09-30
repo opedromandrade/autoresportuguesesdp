@@ -1,28 +1,25 @@
-# autoresportuguesesdp
-Autores Portugueses em Dominio Público
+# 📚 Autores Portugueses em Domínio Público
 
+Este repositório centraliza os dados extraídos do **Wikidata** sobre autores portugueses cujas obras já se encontram em **domínio público**.
 
+O objetivo é facilitar o acesso, análise e reutilização destas informações para projetos literários, académicos ou culturais.
 
-SELECT DISTINCT ?label ?qid ?wikidataUrl ?wikipediaUrl ?dateOfBirth ?dateOfDeath ?publicDomainYear WHERE {
-  ?author wdt:P31 wd:Q5 ;
-          wdt:P27 wd:Q45 ;
-          wdt:P569 ?dateOfBirth ;
-          wdt:P570 ?dateOfDeath ;
-          rdfs:label ?label .
-  FILTER(LANG(?label) = "pt")
+## 🌍 Fonte de Dados
+Todos os dados são provenientes diretamente do Wikidata:
+🔗 [Ver no Wikidata](insertlinkhere)
 
-  BIND(STRAFTER(STR(?author), "entity/") AS ?qid)
-  BIND(CONCAT("https://www.wikidata.org/wiki/", ?qid) AS ?wikidataUrl)
+## 📂 O que contém este repositório?
+- Listas estruturadas de autores portugueses falecidos há mais de 70 anos (ou conforme legislação aplicável).
+- Metadados das obras disponíveis.
+- Links para textos completos quando disponíveis online.
 
-  # Portuguese Wikipedia article only, with "-" fallback
-  OPTIONAL {
-    ?wikipediaArticle schema:about ?author ;
-                      schema:isPartOf <https://pt.wikipedia.org/> .
-  }
-  BIND(COALESCE(STR(?wikipediaArticle), "-") AS ?wikipediaUrl)
+## 🚀 Como usar
+1. Clone este repositório.
+2. Explore os ficheiros `.json`, `.csv` ou `.md` conforme necessário.
+3. Utilize os dados para pesquisas, digitalizações ou curadoria de conteúdo.
 
-  BIND(YEAR(?dateOfDeath) + 71 AS ?publicDomainYear)
-  FILTER(?publicDomainYear <= 2026)
-}
-ORDER BY ?label
-LIMIT 5000
+## 🤝 Contribuições
+Contribuições são bem-vindas! Se encontrar erros nos dados ou quiser adicionar novos autores, por favor abra uma *issue* ou envie um *pull request*.
+
+---
+*Dados atualizados automaticamente a partir do Wikidata.* 🔄
